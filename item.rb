@@ -32,7 +32,6 @@ class Item
     @author = author
     author.items.push(self) unless author.items.include?(self)
   end
-  
-  private :can_be_archived?
 
+  private :can_be_archived?
 end
