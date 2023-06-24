@@ -1,7 +1,6 @@
 require 'rspec'
 require_relative '../author'
 
-
 describe Author do
   context 'when testing the Author class' do
     author = Author.new('First', 'Last')
