@@ -4,9 +4,9 @@ require_relative 'book'
 require_relative 'game'
 require_relative 'genre'
 require_relative 'label'
-require_relative 'Modules/data_module'
-require_relative 'Modules/main_methods'
-require_relative 'Modules/game_author'
+require_relative 'Module/data_module'
+require_relative 'Module/main_methods'
+require_relative 'Module/game_author'
 
 class App
   include DataModule
