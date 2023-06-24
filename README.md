@@ -1,4 +1,4 @@
-# School Library Project in Ruby<a name="readme-top"></a>
+# Catalogue-My-Things Project in Ruby<a name="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -21,9 +21,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 TDD Project in ruby <a name="about-project"></a>
+# 📖 Catalogue-My-Things in ruby <a name="about-project"></a>
 
-**TDD Project in Ruby**  is a Ruby program, that implements the Test Driven Development (TDD) in to action. This application implements the tests first then the actual code.
+**Catalogue-My-Things Project in Ruby**  is a Ruby program, that implements a simple console app that allows users to manage collections of the things they own.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -39,9 +39,18 @@
 ### Key Features <a name="key-features"></a>
 
 The application have the following solutions implemented
-- Calulates a facturial of a number.
-- Reverses a given string.
-- Fizz Buzz with divisiblity of 3,5 and 3 & 5.
+
+- Add a Book
+- Add a Music album
+- Add a Movie 
+- Add a Game
+- List all Books
+- List all Music Albums
+- List all Movies
+- List all Authors
+- List all Genres
+- List all Sources
+- List all Labels
 
 <!-- Getting Started -->
 
@@ -62,7 +71,7 @@ In order to run this project you need to:
 Clone the repo into your local machine:
 
 ```bash
-git clone https://github.com/yosaddis/TDD-project-ruby.git
+git clone https://github.com/yosaddis/catalogue-my-things-ruby.git
 ```
 
 Install the dependencies using npm:
@@ -75,7 +84,7 @@ bundler install
 To start the development run
 
 ```bash
-irb solver.rb
+irb main.rb
 ```
 
 ### Run tests
